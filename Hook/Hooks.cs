@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace SpecFlowReports.Hook
 {
-    [Binding]
+    [Binding] 
     class Hooks
     {
         static AventStack.ExtentReports.ExtentReports extent;
