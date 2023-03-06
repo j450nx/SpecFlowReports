@@ -12,9 +12,9 @@ namespace SpecFlowReports.Hook
     [Binding] 
     class Hooks
     {
-        static AventStack.ExtentReports.ExtentReports extent;
-        static AventStack.ExtentReports.ExtentReports feature;
-        AventStack.ExtentReports.ExtentReports scenario, step;
+        static ExtentReports extent;
+        static ExtentTest feature;
+        ExtentTest scenario, step;
         static string reportPath = System.IO.Directory.GetParent(@"../../../").FullName
                 + Path.DirectorySeparatorChar + "Reports"
                 + Path.DirectorySeparatorChar + "Report_" + DateTime.Now.ToString("ddMMyyyy HHmmss");
